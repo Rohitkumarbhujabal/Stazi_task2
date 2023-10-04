@@ -1,0 +1,35 @@
+.hotel-detail {
+    text-align: center;
+    padding: 20px;
+}
+
+.hotel-detail button {
+    padding: 10px 20px;
+    background-color: #460393;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+.hotel-detail button:hover {
+    background-color: #16013a;
+}
+
+.hotel-detail img {
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.hotel-detail h2 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.hotel-detail p {
+    font-size: 1.1rem;
+}

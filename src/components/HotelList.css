@@ -1,0 +1,159 @@
+.hotel-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+  }
+  
+.hotel-card {
+    position: relative;
+    width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.popular-tag {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    background-color: #4b00b4;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: bolder;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.buttons {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.like-button {
+    background-color: #cdc6fe;
+    color: #6d00fb;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 12px 15px;
+    margin-left: 140px;
+    transition: background-color 0.2s;
+    font-weight: bolder;
+}
+.rent-button{
+    width: 100px;
+    background-color: #cdc6fe;
+    color: #6d00fb;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 0 90px;
+    transition: background-color 0.2s;
+    font-weight: bolder;
+}
+
+.rent-button:hover,
+.like-button:hover {
+    background-color: #3400d1;
+}
+  
+.hotel-card:hover {
+    transform: translateY(-5px);
+}
+
+.hotel-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.hotel-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.hotel-detail {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    border-bottom-style: dashed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details{
+    padding: 12px;
+    text-align: left;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer p{
+    margin-right: 190px;
+    color: rgb(51, 0, 192);
+    font-weight: bolder;
+}
+
+.card-footer span{
+    font-weight: 400;
+    color: black;
+    font-size: smaller;
+}
+
+.card-footer button{
+    border: 1px solid rgb(51, 0, 192);
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 10px;
+    color: rgb(51, 0, 192);
+    font-weight: bolder;
+}
+
+.showmore{
+    text-align: center;
+}
+  
+.show-more-button {
+    width: 10%;
+    padding: 10px 20px;
+    background-color: #4c00ff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+  
+.show-more-button:hover {
+    background-color: #d7bef7;
+}
+  
